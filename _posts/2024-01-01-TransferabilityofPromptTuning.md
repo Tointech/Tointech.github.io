@@ -13,8 +13,8 @@ Table of contents
   - [Fine Tuning](#fine-tuning)
   - [Parameter-Efficient Fine Tuning](#parameter-efficient-fine-tuning)
 
-## Background<a name="background"></a>
-### Fine Tuning<a name="fine-tuning"></a>
+## Background<a href="https://tointech.github.io/posts/TransferabilityofPromptTuning/#background" name="background"></a>
+### Fine Tuning<a href="https://tointech.github.io/posts/TransferabilityofPromptTuning/#fine-tuning" name="fine-tuning"></a>
 Fine tuning (tinh chỉnh) là 1 dạng của transfer learning. 
 
 Transfer learning (học chuyển giao) là việc sử dụng những kiến thức đã học được từ vấn đề này và áp dụng chúng vào vấn đề  có liên quan khác. Một ví dụ đơn giản, thay vì phải tạo ra một mô hình hoàn toàn mới cho bài toán phân loại chó và mèo, ta có thể tận dụng một mô hình đã được huấn luyện trên tập dữ liệu ImageNet với hàng triệu hình ảnh. Việc tiếp tục huấn luyện mô hình này trên tập dữ liệu chó/mèo sẽ giúp quá trình diễn ra nhanh chóng và mang lại kết quả tốt hơn.
@@ -31,7 +31,7 @@ Trong quá trình fine tuning, ta lấy một mô hình đã được huấn luy
 Vì vậy có thể coi fine tuning là một bước tinh chỉnh tiêu chuẩn cho các mô hình.
 
 
-### Parameter-Efficient Fine Tuning<a name="parameter-efficient-fine-tuning"></a>
+### Parameter-Efficient Fine Tuning<a href="https://tointech.github.io/posts/TransferabilityofPromptTuning/#parameter-efficient-fine-tuning" name="parameter-efficient-fine-tuning"></a>
 
 Trong sự phát triển bùng nổ của các Pre-trained Language Model (PLM) hiện nay, các mô hình ngày càng gia tăng số lượng tham số từ hàng triệu đến hàng tỉ và hơn thế nữa.
 
