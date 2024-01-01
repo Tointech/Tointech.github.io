@@ -3,7 +3,6 @@ title: 'Overview: Transferability of Prompt Tuning - Part 1'
 date: 2024-01-01 12:52:03 +0700
 categories: [Research]
 tags: [paper, nlp]     
-author: me2
 ---
 Tóm tắt bài báo [On Transferability of Prompt Tuning for Natural Language Processing](https://aclanthology.org/2022.naacl-main.290.pdf),  NAACL 2022.
 
