@@ -1,15 +1,10 @@
 ---
-title: 'Overview: Transferability of Prompt Tuning - Part 1'
-date: 2024-01-01 12:52:03 +0700
+title: 'Fine Tuning and Challenges'
+date: 2024-01-01 10:50:03 +0700
 categories: [Research]
-tags: [paper, nlp]     
+tags: [ai]     
 ---
-Tóm tắt bài báo [On Transferability of Prompt Tuning for Natural Language Processing](https://aclanthology.org/2022.naacl-main.290.pdf),  NAACL 2022.
-
----
-
-## Background
-### Fine Tuning
+## Fine Tuning
 Fine tuning (tinh chỉnh) là 1 dạng của transfer learning. 
 
 Transfer learning (học chuyển giao) là việc sử dụng những kiến thức đã học được từ vấn đề này và áp dụng chúng vào vấn đề  có liên quan khác. Một ví dụ đơn giản, thay vì phải tạo ra một mô hình hoàn toàn mới cho bài toán phân loại chó và mèo, ta có thể tận dụng một mô hình đã được huấn luyện trên tập dữ liệu ImageNet với hàng triệu hình ảnh. Việc tiếp tục huấn luyện mô hình này trên tập dữ liệu chó/mèo sẽ giúp quá trình diễn ra nhanh chóng và mang lại kết quả tốt hơn.
@@ -26,7 +21,7 @@ Trong quá trình fine tuning, ta lấy một mô hình đã được huấn luy
 Vì vậy có thể coi fine tuning là một bước tinh chỉnh tiêu chuẩn cho các mô hình.
 
 
-### Parameter-Efficient Fine Tuning
+## Challenges
 
 Trong sự phát triển bùng nổ của các Pre-trained Language Model (PLM) hiện nay, các mô hình ngày càng gia tăng số lượng tham số từ hàng triệu đến hàng tỉ và hơn thế nữa.
 
@@ -43,8 +38,7 @@ Ta có một số phương pháp được đề xuất trong PEFT:
 
 <img src="https://i.ibb.co/ZMSd6xq/Screenshot-from-2024-01-01-23-21-35.png"  alt="peft" width="500"/>
 
-Bài báo này sẽ tập trung vào phương pháp có ở trong PEFT là Prompt Tuning hay Soft Prompt Tuning.
-
+Chi tiết về các phương pháp có ở trong PEFT mình sẽ trình bày ở những bài tiếp theo...
 
 <div id="disqus_thread"></div>
 <script>

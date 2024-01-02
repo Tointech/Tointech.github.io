@@ -1,23 +1,18 @@
 ---
-title: Hello World
-date: 2024-01-01 5:00:00 +0700
-categories: [Personal]
-tags: [journal]     
+title: 'Transferability of Prompt Tuning'
+date: 2024-01-02 12:52:03 +0700
+categories: [Research]
+tags: [paper, nlp, ai]     
 ---
-Mình thích việc chia sẻ những gì mình học được cho người khác vì nó giúp mình hiểu sâu và nhớ lâu hơn.
+Tóm tắt bài báo [On Transferability of Prompt Tuning for Natural Language Processing](https://aclanthology.org/2022.naacl-main.290.pdf),  NAACL 2022.
 
-Không phải là trên những mạng xã hội khác, mình muốn có khoảng không cho riêng mình.
+---
 
-Vì thế blog này ra đời nhân một ngày khởi đầu mới. 
+## Background
 
-Mình mong nhật ký của mình có thể đóng góp chút ít cho những ai cần nó và mình rất vui nên có người góp ý giúp mình hoàn thiện hơn hoặc có thể chia sẻ bất kỳ điều gì với mình. 
 
-Mình thật lòng biết ơn vì điều đó. 
+Bài báo này sẽ tập trung vào phương pháp có ở trong PEFT là Prompt Tuning hay Soft Prompt Tuning.
 
-Năm mới bình an và hạnh phúc cho mình,
-cho bạn và cho tất cả mọi người. 
-
-Be present.
 
 <div id="disqus_thread"></div>
 <script>
