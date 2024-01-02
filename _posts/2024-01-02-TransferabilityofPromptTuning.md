@@ -9,9 +9,43 @@ Tóm tắt bài báo [On Transferability of Prompt Tuning for Natural Language P
 ---
 
 ## Background
+- [Fine Tuning and PEFT](https://tointech.github.io/posts/FineTuning/)
+- [Prompt Tuning](https://tointech.github.io/posts/SoftPrompt/)
+
+Nhìn chung các phương pháp trong PEFT hay Prompt Tuning nói riêng sẽ giúp giảm khối lượng tính toán cho việc tinh chỉnh mô hình hơn so với việc Full Fine Tuning. 
+
+Nhưng nếu xét về thời gian tính toán, ta sẽ nhìn vào hình bên dưới đây:
+
+<img src="https://i.ibb.co/rQbLwt4/Screenshot-from-2024-01-02-21-04-13.png" alt="time" width=400>
+*Source: On Transferability of Prompt Tuning for Natural Language Processing*
+
+Ta thấy rằng Prompt Tuning sẽ chậm hội tụ hơn so với Fine Tuning. Vậy làm sao để cải thiện vấn đề này? 
+
+Nhóm tác giả đề xuất rằng thay vì khởi tạo ngẫu nhiên prompt, tại sao chúng ta không tái sử dụng prompt đã được huấn luyện ở một tác vụ cùng loại để có xuất phát điểm train tốt hơn. Lúc này khái niệm Prompt Transfer được định nghĩa.
+
+## Prompt Transfer
+
+Nghiên cứu này tập trung vào việc liệu Prompt Transfer có thể giúp cải thiện Prompt Tuning tốt hơn không?
+
+Nhóm tác giả cài đặt 2 thí nghiệm chính như sau:
+
+- Cross-Task Transfer: 17 NLP Tasks in 6 Categories 
+    - Sentiment Analysis: IMDB, SST-2, Laptop, Restaurant, Movie, Regionales, TweetEvel 
+    - NLI: MNLI, QNLI, SNLI
+    - Ethical Judgment: Deontology, Justice
+    - Paraphrase Identification: QQP, MRPC
+    - QA: SQuAD, NQ-Open
+    - Summarization: Multi-News, SAMSum
+
+- Cross-Model Transfer: 
+    - RoBERTa-large
+    - T5-XXL
+
+### Cross-Task Transfer
 
 
-Bài báo này sẽ tập trung vào phương pháp có ở trong PEFT là Prompt Tuning hay Soft Prompt Tuning.
+
+### Cross-Model Transfer
 
 
 <div id="disqus_thread"></div>

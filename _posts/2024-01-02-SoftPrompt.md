@@ -27,7 +27,6 @@ Trường hợp dưới đây sẽ thử thách hơn:
 
 Ta có thể thấy cả 2 đều sai trong lần đầu vì chỉ dịch word-by-word nhưng với Google Translate ta không thể nào lập tức cải thiện được chất lượng bản dịch. Còn đối với GPT ta có thể chỉ rõ hơn đây là một cụm thành ngữ để GPT đưa ra được đúng bản dịch mà chúng ta cần. 
 
-
 Cách thức ta hướng dẫn cho GPT này gọi là Prompt Tuning hay chính xác hơn là Hard Prompt Tuning. 
 
 Vậy Hard Prompt và Soft Prompt khác nhau như thế nào?
@@ -41,6 +40,5 @@ Vậy Hard Prompt và Soft Prompt khác nhau như thế nào?
 Ta thấy rằng hai thuật ngữ này khác nhau về cách ta tạo nên prompt:
 - Khi tự tạo prompt bằng ngôn ngữ tự nhiên, ta nói về Hard Prompting.
 - Khi prompt không phải do con người thiết kế mà được học với dữ liệu thì nó là soft promt. Cụ thể, Soft Prompt bao gồm các tham số trong không gian vector và các tham số đó có thể được điều chỉnh trong quá trình đào tạo để thu được loss nhỏ hơn và câu trả lời cho ra sẽ tốt hơn.
-
 
 *Cảm ơn bạn Minh-Dat Nguyen đã đóng góp vào phần trình bày này.*
