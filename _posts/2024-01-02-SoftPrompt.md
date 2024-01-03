@@ -38,7 +38,7 @@ Vậy Hard Prompt và Soft Prompt khác nhau như thế nào?
 *Source: Controlled Text Generation using T5 based Encoder-Decoder Soft Prompt Tuning and Analysis of the Utility of Generated Text in AI*
 
 Ta thấy rằng hai thuật ngữ này khác nhau về cách ta tạo nên prompt:
-- Khi tự tạo prompt bằng ngôn ngữ tự nhiên, ta nói về Hard Prompting.
-- Khi prompt không phải do con người thiết kế mà được học với dữ liệu thì nó là soft promt. Cụ thể, Soft Prompt bao gồm các tham số trong không gian vector và các tham số đó có thể được điều chỉnh trong quá trình đào tạo để thu được loss nhỏ hơn và câu trả lời cho ra sẽ tốt hơn.
+- Khi tự tạo prompt bằng ngôn ngữ tự nhiên, ta nói về Hard Prompt.
+- Khi prompt không phải do con người thiết kế mà được học với dữ liệu thì nó là Soft Prompt. Cụ thể, Soft Prompt bao gồm các tham số trong không gian vector và các tham số đó có thể được điều chỉnh trong quá trình đào tạo để thu được loss nhỏ hơn và câu trả lời cho ra sẽ tốt hơn.
 
 *Cảm ơn bạn Minh-Dat Nguyen đã đóng góp vào phần trình bày này.*
