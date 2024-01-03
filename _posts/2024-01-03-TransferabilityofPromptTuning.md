@@ -87,9 +87,9 @@ Huấn luyện prompt trên mô hình nhỏ giúp tiết kiệm thời gian và 
 <img src="https://i.ibb.co/QDq74Y4/Screenshot-from-2024-01-03-13-45-32.png" alt="crossmodel">
 *Source: On Transferability of Prompt Tuning for Natural Language Processing*
 
-Việc tái sử dụng trực tiếp Soft Prompt đã được đào tạo giữa các PLM khác nahu được coi là không khả thi do sự khác biệt về Embedding spaces[^fn1]. Vì vậy ta cần Projector để có thể chuyển đổi Soft Prompts giữa các mô hình.
+Việc tái sử dụng trực tiếp Soft Prompt đã được đào tạo giữa các PLM khác nhau được coi là không khả thi do sự khác biệt về Embedding spaces[^fn1]. Vì vậy ta cần Projector để có thể chuyển đổi Soft Prompts giữa các mô hình.
 
-Prompt Projector được dào tạo với các mục tiêu khác nhau và ta kiểm tra hiệu quả của chính bằng 2 cách:
+Prompt Projector được đào tạo với các mục tiêu khác nhau và ta kiểm tra hiệu quả của chính bằng 2 cách:
 - Min distance:
   - Prompt trained on source model: $P_s$
   - Prompt trained on target model: $P_t$
