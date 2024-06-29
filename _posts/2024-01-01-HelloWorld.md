@@ -2,7 +2,7 @@
 title: Hello World
 date: 2024-01-01 5:00:00 +0700
 categories: [Personal]
-tags: [journal]     
+tags: []     
 ---
 Mình thích việc chia sẻ những gì mình học được cho người khác vì nó giúp mình hiểu sâu và nhớ lâu hơn.
 
